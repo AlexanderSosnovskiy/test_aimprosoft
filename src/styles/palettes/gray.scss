@@ -1,0 +1,52 @@
+/// @group Gray
+/// @type Color
+$r2l-gray-100: #ffffff;
+
+/// @group Gray
+/// @type Color
+$r2l-gray-200: #e8e8e8;
+
+/// @group Gray
+/// @type Color
+$r2l-gray-300: #c7c7c7;
+
+/// @group Gray
+/// @type Color
+$r2l-gray-400: #a6a6a6;
+
+/// @group Gray
+/// @type Color
+$r2l-gray-500: #858585;
+
+/// @group Gray
+/// @type Color
+$r2l-gray-600: #636363;
+
+/// @group Gray
+/// @type Color
+$r2l-gray-700: #424242;
+
+/// @group Gray
+/// @type Color
+$r2l-gray-800: #212121;
+
+/// @group Gray
+/// @type Color
+$r2l-gray-900: #000000;
+
+/// @group Gray
+/// @type Map
+/// @example
+/// $green: map-get($r2l-gray, 400);
+/// (Same as $r2l-gray-400)
+$r2l-gray: (
+  100: $r2l-gray-100,
+  200: $r2l-gray-200,
+  300: $r2l-gray-300,
+  400: $r2l-gray-400,
+  500: $r2l-gray-500,
+  600: $r2l-gray-600,
+  700: $r2l-gray-700,
+  800: $r2l-gray-800,
+  900: $r2l-gray-900,
+);
