@@ -1,0 +1,59 @@
+@import '../../styles/variables';
+
+.r2l {
+  &-slick {
+    &-slider {
+      height: 100%;
+      background-color: $r2l-gray-300;
+    }
+
+    &-dots {
+      &--align-right {
+        top: 50%;
+        right: 0;
+        bottom: unset;
+
+        width: auto;
+        height: auto;
+
+        transform: translateY(-50%);
+      }
+
+      & > li {
+        top: 50%;
+
+        width: 0.5rem;
+        height: 0.5rem;
+
+        margin: 2px;
+
+        transform: translateY(-50%);
+
+        &.slick-active {
+          & > button {
+            &::before {
+              background-color: $r2l-gray-900;
+            }
+          }
+        }
+
+        & > button {
+          width: 0.5rem;
+          height: 0.5rem;
+
+          padding: 0;
+
+          &::before {
+            content: '';
+
+            width: 0.5rem;
+            height: 0.5rem;
+
+            border: 1px solid $r2l-gray-900;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.r2l {
+  &-slick {
+    &-dots {
+      & > li {
+        &.slick-active {
+          & > button::before {
+            opacity: 1;
+          }
+        }
+
+        & > button {
+          padding: 0;
+
+          &::before {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

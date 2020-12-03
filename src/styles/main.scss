@@ -1,6 +1,15 @@
 @import './variables';
 @import './fonts/rajhani.css';
-@import './normalization/custom-reset.css';
+@import './normalization/custom-reset';
 @import './custom-bootstrap';
-@import './base';
+@import './common';
 @import '~bootstrap/scss/bootstrap';
+
+.r2l-inner-wrapper {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.r2l-main-content {
+  height: 600vh;
+}
