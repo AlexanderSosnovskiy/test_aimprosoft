@@ -1,0 +1,14 @@
+.r2l-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.r2l-arrow-container {
+  max-width: 55px;
+
+  & > svg {
+    max-width: 100%;
+    object-fit: cover;
+  }
+}

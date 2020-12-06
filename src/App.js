@@ -1,9 +1,10 @@
 import React from 'react'
 
 import Shipping from './components/Shipping'
-import Banner from './components/Banner/Banner'
-import Navbar from './components/Navbar'
-import Productist from './containers/ProductList/ProductList'
+import Banner from './components/Banner'
+import Productist from './containers/ProductList'
+import CategoryList from './containers/CategoryList'
+import InstagramGalery from './containers/InstagramGalery'
 
 import './styles/main.scss'
 
@@ -12,10 +13,10 @@ function App() {
     <>
       <Shipping />
       <Banner />
-      <main className='r2l-main-content'>
-        <div className='r2l-inner-wrapper'>
-          <Productist />
-        </div>
+      <main className='r2l-main-content px-7'>
+        <Productist />
+        <CategoryList />
+        <InstagramGalery />
       </main>
     </>
   )

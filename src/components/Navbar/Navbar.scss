@@ -1,0 +1,27 @@
+@import '../../styles/variables';
+
+.navbar {
+  padding: 0;
+  background-color: $r2l-gray-900;
+
+  & .navbar-toggler {
+    padding: 0;
+    border: none;
+    outline: none;
+    color: $r2l-gray-100;
+
+    &:focus,
+    &:active {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  &-brand {
+    font-family: 'Rajdhani';
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $r2l-gray-100;
+  }
+}

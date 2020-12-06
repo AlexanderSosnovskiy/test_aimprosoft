@@ -1,0 +1,10 @@
+.r2l-delimeter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & > svg {
+    max-width: 120px;
+    object-fit: cover;
+  }
+}

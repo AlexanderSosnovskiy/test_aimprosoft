@@ -8,10 +8,12 @@ import {
   Button,
 } from 'react-bootstrap'
 
+import './Navbar.scss'
+
 function Navigation() {
   return (
-    <Navbar expand='false' sticky='top'>
-      <Navbar.Toggle aria-controls='main-navigation' className='' />
+    <Navbar variant='dark' expand='false' sticky='top'>
+      <Navbar.Toggle aria-controls='main-navigation' />
       <Navbar.Brand href='#home'>cloth & fashio</Navbar.Brand>
       <Nav.Link href='#login'>login</Nav.Link>
       <Navbar.Collapse>

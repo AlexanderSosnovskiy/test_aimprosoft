@@ -1,4 +1,15 @@
 .r2l {
+  &-galery-img-container {
+    max-height: 188px;
+    overflow: hidden;
+  }
+
+  &-galery__img {
+    max-width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+  }
+
   &-slick {
     &-dots {
       & > li {
@@ -17,5 +28,25 @@
         }
       }
     }
+  }
+}
+
+.r2l-title {
+  font-size: 1.2rem;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
   }
 }

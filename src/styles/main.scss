@@ -1,14 +1,15 @@
 @import './variables';
-@import './fonts/rajhani.css';
-@import './normalization/custom-reset';
+@import './fonts/rajdhani.css';
 @import './custom-bootstrap';
-@import './common';
 @import '~bootstrap/scss/bootstrap';
+@import './normalization/custom-reset';
+@import './common';
 
-.r2l-inner-wrapper {
-  padding-left: 10rem;
-  padding-right: 10rem;
-}
+// Required Core Stylesheet
+@import '~@glidejs/glide/src/assets/sass/glide.core';
+
+// Optional Theme Stylesheet
+@import '~@glidejs/glide/src/assets/sass/glide.theme';
 
 .r2l-main-content {
   height: 600vh;

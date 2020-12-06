@@ -1,0 +1,33 @@
+.r2l-product {
+  &__card:hover .r2l-product__desc {
+    display: flex;
+  }
+
+  &__img-container {
+    max-height: 252px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  &__img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  &__desc {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+
+  &__price {
+    text-align: center;
+  }
+}

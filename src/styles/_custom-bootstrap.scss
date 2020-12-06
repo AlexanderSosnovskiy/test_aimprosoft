@@ -4,3 +4,12 @@ $font-family-base: 'Rajdhani', 'Courier New', -apple-system, BlinkMacSystemFont,
 $body-bg: $r2l-gray-100;
 $body-color: $r2l-gray-900;
 $user-selects: $r2l-gray-300;
+$spacer: 1rem;
+$spacers: (
+  6: (
+    $spacer * 9 - 2rem,
+  ),
+  7: (
+    $spacer * 9,
+  ),
+);
